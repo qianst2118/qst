@@ -14,13 +14,13 @@ $ git init
 创建新文件
 $ touch a.txt
 /////////////////////////////
-git:
+添加git文件:
 创建文件
 $ git status
 提交到暂存区
-$ git add a.txt
+$ git add help.txt
 提交到仓库
-$ git commit -m 'a.txt'
+$ git commit -m 'help.txt'
 
 
 
