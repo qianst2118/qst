@@ -1,0 +1,28 @@
+Shaddowsocks
+初始化账号名
+$ git config --global user.name 'qianst2118'
+初始化邮箱
+$ git config --global user.name '3035887513@qq.com'
+查看初始化
+$ git config --list
+新建文件夹
+$ mkdir text1
+跳转到对应文件夹
+$ cd text1
+设置为git仓库
+$ git init
+创建新文件
+$ touch a.txt
+/////////////////////////////
+git:
+创建文件
+$ git status
+提交到暂存区
+$ git add a.txt
+提交到仓库
+$ git commit -m 'a.txt'
+
+
+
+
+
