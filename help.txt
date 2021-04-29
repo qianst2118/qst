@@ -30,7 +30,8 @@ git commit -m '提交描述'
 远程仓库操作
 将本地仓提交到远程
 git push
-
+将远程复制到本地
+git clone 仓库地址
 
 
 
