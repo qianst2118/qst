@@ -26,6 +26,10 @@ rm help.txt
 git rm help.txt
 提交到仓库
 git commit -m '提交描述'
+//////////////////////////
+远程仓库操作
+将本地仓提交到远程
+git push
 
 
 
