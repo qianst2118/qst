@@ -1,25 +1,32 @@
 Shaddowsocks
 初始化账号名
-$ git config --global user.name 'qianst2118'
+git config --global user.name 'qianst2118'
 初始化邮箱
-$ git config --global user.name '3035887513@qq.com'
+git config --global user.name '3035887513@qq.com'
 查看初始化
-$ git config --list
+git config --list
 新建文件夹
-$ mkdir text1
+mkdir text1
 跳转到对应文件夹
-$ cd text1
+cd text1
 设置为git仓库
-$ git init
+git init
 创建新文件
-$ touch a.txt
+touch a.txt
 /////////////////////////////
 创建文件
-$ git status
+git status
 提交到暂存区
-$ git add help.txt
+git add help.txt
 提交到仓库
-$ git commit -m 'help.txt'
+git commit -m 'help.txt'
+删除文件
+rm help.txt
+删除git文件
+git rm help.txt
+提交到仓库
+git commit -m '提交描述'
+
 
 
 
